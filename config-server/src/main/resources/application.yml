@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/mekbk/springcloudConfig.git
+          searchPaths: respo
+          default-label: master
+          # 本地仓库如果有脏数据，则会强制拉取（默认是false）
+          force-pull: true
+          # 忽略ssl, 或者自行配置秘钥
+          skip-ssl-validation: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

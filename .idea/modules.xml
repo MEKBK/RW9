@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/configServer.iml" filepath="$PROJECT_DIR$/config-server/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eurekaServer.iml" filepath="$PROJECT_DIR$/eureka-server/eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth-auth-server/oauth-auth-server.iml" filepath="$PROJECT_DIR$/oauth2/oauth-auth-server/oauth-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/oauth2/oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-demo/oauth2-auth-server.iml" filepath="$PROJECT_DIR$/oauth2-demo/oauth2-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2-client-authorization-code-server/oauth2-client-authorization-code-server.iml" filepath="$PROJECT_DIR$/oauth2/oauth2-client-authorization-code-server/oauth2-client-authorization-code-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2-client-order-server/oauth2-client-order-server.iml" filepath="$PROJECT_DIR$/oauth2/oauth2-client-order-server/oauth2-client-order-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2-client-user-server/oauth2-client-user-server.iml" filepath="$PROJECT_DIR$/oauth2/oauth2-client-user-server/oauth2-client-user-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/product-data-service/product-data-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/productServiceHystrixDashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/productServiceHystrixDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/productServiceTurbine.iml" filepath="$PROJECT_DIR$/turbine/productServiceTurbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/productServiceZuul.iml" filepath="$PROJECT_DIR$/zuul/productServiceZuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>

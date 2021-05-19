@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="productServiceHystrixDashboard" />
+        <module name="oauth-auth-server" />
+        <module name="admin" />
+        <module name="productServiceTurbine" />
+        <module name="eurekaServer" />
+        <module name="oauth2-client-authorization-code-server" />
+        <module name="oauth2-client-user-server" />
+        <module name="configServer" />
+        <module name="oauth2-client-order-server" />
+        <module name="product-view-service-ribbon" />
+        <module name="product-view-service-feign" />
+        <module name="productServiceZuul" />
+        <module name="product-data-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="configServer" target="1.8" />
+      <module name="eurekaServer" target="1.8" />
+      <module name="oauth-auth-server" target="1.8" />
+      <module name="oauth2" target="1.8" />
+      <module name="oauth2-auth-server" target="1.8" />
+      <module name="oauth2-client-authorization-code-server" target="1.8" />
+      <module name="oauth2-client-order-server" target="1.8" />
+      <module name="oauth2-client-user-server" target="1.8" />
+      <module name="oauth2-demo" target="1.8" />
+      <module name="product-data-service" target="1.8" />
+      <module name="product-view-service-feign" target="1.8" />
+      <module name="product-view-service-ribbon" target="1.8" />
+      <module name="productServiceHystrixDashboard" target="1.8" />
+      <module name="productServiceTurbine" target="1.8" />
+      <module name="productServiceZuul" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
+      <module name="oauth-auth-server" options="-parameters" />
+      <module name="oauth2-client-authorization-code-server" options="-parameters" />
+      <module name="oauth2-client-order-server" options="-parameters" />
+      <module name="oauth2-client-user-server" options="-parameters" />
+      <module name="oauth2-demo" options="-parameters" />
+      <module name="product-data-service" options="-parameters" />
+      <module name="product-view-service-feign" options="-parameters" />
+      <module name="product-view-service-ribbon" options="-parameters" />
+      <module name="productServiceHystrixDashboard" options="-parameters" />
+      <module name="productServiceTurbine" options="-parameters" />
+      <module name="productServiceZuul" options="-parameters" />
+    </option>
+  </component>
+</project>
